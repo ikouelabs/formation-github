@@ -1,4 +1,6 @@
-# Configurer OpenSSH
+# Bien démarrer avec Git
+
+## Configurer OpenSSH
 
 ```bash
 ssh-keygen -t rsa 
@@ -8,16 +10,16 @@ ssh -T git@github.com
 // Copier le contenu de id_rsa.pub sur le compte Github/Settings/SSH and GPG
 ```
 
-# Configurer git
+## Configurer git
+
+- [ ] Télécharger et installer Git: https://git-scm.com/downloads
 
 ```
 git config --global user.name "votre nom"
 git config --global user.email "adresse email github"
 ```
 
-# Publier son code
-
-- [ ] Télécharger et installer Git: https://git-scm.com/downloads
+## Publier son code
 
 ```bash
 
