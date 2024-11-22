@@ -8,6 +8,13 @@ ssh -T git@github.com
 // Copier le contenu de id_rsa.pub sur le compte Github/Settings/SSH and GPG
 ```
 
+# Configurer git
+
+```
+git config --global user.name "votre nom"
+git config --global user.email "adresse email github"
+```
+
 # Publier son code
 
 - [ ] Télécharger et installer Git: https://git-scm.com/downloads
