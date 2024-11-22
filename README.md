@@ -12,7 +12,7 @@ Télécharger et installer Git: https://git-scm.com/downloads
 
 git init
 git remote add origin git@github.com:<COMPTE>/<REPOSITORY>.git (Remplacer COMPTe et REPOSITORY)
-# vérifier que le fichier .gitignore existe bien dans le dossier en cours
+// vérifier que le fichier .gitignore existe bien dans le dossier en cours
 git add .
 git commit -am "Initial commit"
 git push -u origin master
