@@ -19,9 +19,11 @@ git config --global user.name "votre nom"
 git config --global user.email "adresse email github"
 ```
 
-## Publier son code
+## Publier son code 
 
 ```bash
+
+// À exécuter dans le réportoire de votre projet
 
 git init
 git remote add origin git@github.com:<COMPTE>/<REPOSITORY>.git (Remplacer COMPTe et REPOSITORY)
